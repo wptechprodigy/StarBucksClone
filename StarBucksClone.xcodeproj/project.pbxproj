@@ -95,11 +95,9 @@
 		0439EC8A2533BFE500CB1AAA /* StarBucksClone */ = {
 			isa = PBXGroup;
 			children = (
+				0439ECCD2533C6ED00CB1AAA /* Files */,
 				0439EC8B2533BFE500CB1AAA /* AppDelegate.swift */,
 				0439EC8F2533BFE500CB1AAA /* HomeViewController.swift */,
-				0439EC942533BFE700CB1AAA /* Assets.xcassets */,
-				0439EC962533BFE700CB1AAA /* LaunchScreen.storyboard */,
-				0439EC992533BFE700CB1AAA /* Info.plist */,
 			);
 			path = StarBucksClone;
 			sourceTree = "<group>";
@@ -120,6 +118,16 @@
 				0439ECAF2533BFE800CB1AAA /* Info.plist */,
 			);
 			path = StarBucksCloneUITests;
+			sourceTree = "<group>";
+		};
+		0439ECCD2533C6ED00CB1AAA /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				0439EC942533BFE700CB1AAA /* Assets.xcassets */,
+				0439EC962533BFE700CB1AAA /* LaunchScreen.storyboard */,
+				0439EC992533BFE700CB1AAA /* Info.plist */,
+			);
+			name = Files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

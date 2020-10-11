@@ -11,9 +11,11 @@ class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        let configuration = UIImage.SymbolConfiguration(scale: .large)
+        let image = UIImage(systemName: "house.fill", withConfiguration: configuration)
+        tabBarItem = UITabBarItem(title: "Home", image: image, tag: 0)
     }
-
 
 }
 
