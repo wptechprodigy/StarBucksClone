@@ -15,6 +15,7 @@
 		0439ECAE2533BFE800CB1AAA /* StarBucksCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439ECAD2533BFE800CB1AAA /* StarBucksCloneUITests.swift */; };
 		0439ECD92533D40A00CB1AAA /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439ECD82533D40A00CB1AAA /* ScanViewController.swift */; };
 		0439ECDE2533D42600CB1AAA /* StarBucksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439ECDD2533D42600CB1AAA /* StarBucksViewController.swift */; };
+		0439ECE32533D48B00CB1AAA /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439ECE22533D48B00CB1AAA /* OrderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0439ECAF2533BFE800CB1AAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0439ECD82533D40A00CB1AAA /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
 		0439ECDD2533D42600CB1AAA /* StarBucksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarBucksViewController.swift; sourceTree = "<group>"; };
+		0439ECE22533D48B00CB1AAA /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 			children = (
 				0439ECD82533D40A00CB1AAA /* ScanViewController.swift */,
 				0439ECDD2533D42600CB1AAA /* StarBucksViewController.swift */,
+				0439ECE22533D48B00CB1AAA /* OrderViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0439EC902533BFE500CB1AAA /* HomeViewController.swift in Sources */,
+				0439ECE32533D48B00CB1AAA /* OrderViewController.swift in Sources */,
 				0439ECDE2533D42600CB1AAA /* StarBucksViewController.swift in Sources */,
 				0439EC8C2533BFE500CB1AAA /* AppDelegate.swift in Sources */,
 				0439ECD92533D40A00CB1AAA /* ScanViewController.swift in Sources */,
