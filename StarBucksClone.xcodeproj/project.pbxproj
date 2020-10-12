@@ -111,7 +111,7 @@
 		0439EC8A2533BFE500CB1AAA /* StarBucksClone */ = {
 			isa = PBXGroup;
 			children = (
-				0439ED0325345D0B00CB1AAA /* Commons */,
+				0439ED0325345D0B00CB1AAA /* Common */,
 				0439ECD72533D3EA00CB1AAA /* ViewControllers */,
 				0439ECCD2533C6ED00CB1AAA /* Files */,
 				0439EC8B2533BFE500CB1AAA /* AppDelegate.swift */,
@@ -160,12 +160,12 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
-		0439ED0325345D0B00CB1AAA /* Commons */ = {
+		0439ED0325345D0B00CB1AAA /* Common */ = {
 			isa = PBXGroup;
 			children = (
 				0439ED0425345D1200CB1AAA /* Extensions */,
 			);
-			name = Commons;
+			name = Common;
 			sourceTree = "<group>";
 		};
 		0439ED0425345D1200CB1AAA /* Extensions */ = {
