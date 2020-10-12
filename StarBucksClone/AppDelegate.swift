@@ -18,8 +18,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.makeKeyAndVisible()
         window?.backgroundColor = .systemBackground
         
+        let homeViewController = HomeViewController()
+        let scanViewController = ScanViewController()
+        let orderViewController = OrderViewController()
+        let giftViewController = GiftViewController()
+        let storesViewController = StoresViewController()
+        
         let tabBarController = UITabBarController()
-        tabBarController.viewControllers = [HomeViewController()]
+        tabBarController.viewControllers = [homeViewController, scanViewController, orderViewController, giftViewController, storesViewController]
         
         window?.rootViewController = tabBarController
         
