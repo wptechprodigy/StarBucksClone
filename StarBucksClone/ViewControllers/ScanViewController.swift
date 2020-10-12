@@ -14,6 +14,6 @@ class ScanViewController: StarBucksViewController {
     }
     
     override func commonInit() {
-        setTabBarImage(imageName: "qrscan", title: "Sacn")
+        setTabBarImage(imageName: "qrscan", title: "Scan")
     }
 }
