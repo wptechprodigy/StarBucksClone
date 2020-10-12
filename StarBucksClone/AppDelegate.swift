@@ -24,7 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let giftViewController = GiftViewController()
         let storesViewController = StoresViewController()
         
-        let homeNavigationController = UINavigationController(rootViewController: homeViewController)
+        let homeNavigationController = makeNavigationController(rootViewController: homeViewController)
         let scanNavigationController = UINavigationController(rootViewController: scanViewController)
         let orderNavigationController = UINavigationController(rootViewController: orderViewController)
         let giftNavigationController = UINavigationController(rootViewController: giftViewController)
@@ -39,4 +39,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 }
-

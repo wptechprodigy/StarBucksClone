@@ -18,6 +18,9 @@
 		0439ECE32533D48B00CB1AAA /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439ECE22533D48B00CB1AAA /* OrderViewController.swift */; };
 		0439ECE82533D52300CB1AAA /* GiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439ECE72533D52300CB1AAA /* GiftViewController.swift */; };
 		0439ECED2533D61E00CB1AAA /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439ECEC2533D61E00CB1AAA /* StoreViewController.swift */; };
+		0439ED0625345D2D00CB1AAA /* HomeViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439ED0525345D2D00CB1AAA /* HomeViewController+Extension.swift */; };
+		0439ED0E2534ADE400CB1AAA /* UIKit+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439ED0D2534ADE400CB1AAA /* UIKit+Extension.swift */; };
+		0439ED132534B4F900CB1AAA /* Factories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439ED122534B4F900CB1AAA /* Factories.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		0439ECE22533D48B00CB1AAA /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
 		0439ECE72533D52300CB1AAA /* GiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftViewController.swift; sourceTree = "<group>"; };
 		0439ECEC2533D61E00CB1AAA /* StoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
+		0439ED0525345D2D00CB1AAA /* HomeViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+Extension.swift"; sourceTree = "<group>"; };
+		0439ED0D2534ADE400CB1AAA /* UIKit+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIKit+Extension.swift"; sourceTree = "<group>"; };
+		0439ED122534B4F900CB1AAA /* Factories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factories.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,7 @@
 		0439EC8A2533BFE500CB1AAA /* StarBucksClone */ = {
 			isa = PBXGroup;
 			children = (
+				0439ED0325345D0B00CB1AAA /* Commons */,
 				0439ECD72533D3EA00CB1AAA /* ViewControllers */,
 				0439ECCD2533C6ED00CB1AAA /* Files */,
 				0439EC8B2533BFE500CB1AAA /* AppDelegate.swift */,
@@ -151,6 +158,24 @@
 				0439ECEC2533D61E00CB1AAA /* StoreViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0439ED0325345D0B00CB1AAA /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				0439ED0425345D1200CB1AAA /* Extensions */,
+			);
+			name = Commons;
+			sourceTree = "<group>";
+		};
+		0439ED0425345D1200CB1AAA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0439ED0525345D2D00CB1AAA /* HomeViewController+Extension.swift */,
+				0439ED0D2534ADE400CB1AAA /* UIKit+Extension.swift */,
+				0439ED122534B4F900CB1AAA /* Factories.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,11 +308,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0439EC902533BFE500CB1AAA /* HomeViewController.swift in Sources */,
+				0439ED0625345D2D00CB1AAA /* HomeViewController+Extension.swift in Sources */,
 				0439ECE32533D48B00CB1AAA /* OrderViewController.swift in Sources */,
 				0439ECDE2533D42600CB1AAA /* StarBucksViewController.swift in Sources */,
 				0439EC8C2533BFE500CB1AAA /* AppDelegate.swift in Sources */,
 				0439ECE82533D52300CB1AAA /* GiftViewController.swift in Sources */,
 				0439ECD92533D40A00CB1AAA /* ScanViewController.swift in Sources */,
+				0439ED0E2534ADE400CB1AAA /* UIKit+Extension.swift in Sources */,
+				0439ED132534B4F900CB1AAA /* Factories.swift in Sources */,
 				0439ECED2533D61E00CB1AAA /* StoreViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

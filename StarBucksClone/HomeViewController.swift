@@ -11,7 +11,7 @@ class HomeViewController: StarBucksViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        setupNavBar()
         setTabBarImage(imageName: "house.fill", title: "Home")
     }
 
