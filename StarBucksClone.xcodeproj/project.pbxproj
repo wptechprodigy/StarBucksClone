@@ -17,6 +17,7 @@
 		0439ECDE2533D42600CB1AAA /* StarBucksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439ECDD2533D42600CB1AAA /* StarBucksViewController.swift */; };
 		0439ECE32533D48B00CB1AAA /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439ECE22533D48B00CB1AAA /* OrderViewController.swift */; };
 		0439ECE82533D52300CB1AAA /* GiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439ECE72533D52300CB1AAA /* GiftViewController.swift */; };
+		0439ECED2533D61E00CB1AAA /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439ECEC2533D61E00CB1AAA /* StoreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		0439ECDD2533D42600CB1AAA /* StarBucksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarBucksViewController.swift; sourceTree = "<group>"; };
 		0439ECE22533D48B00CB1AAA /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
 		0439ECE72533D52300CB1AAA /* GiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftViewController.swift; sourceTree = "<group>"; };
+		0439ECEC2533D61E00CB1AAA /* StoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 				0439ECDD2533D42600CB1AAA /* StarBucksViewController.swift */,
 				0439ECE22533D48B00CB1AAA /* OrderViewController.swift */,
 				0439ECE72533D52300CB1AAA /* GiftViewController.swift */,
+				0439ECEC2533D61E00CB1AAA /* StoreViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 				0439EC8C2533BFE500CB1AAA /* AppDelegate.swift in Sources */,
 				0439ECE82533D52300CB1AAA /* GiftViewController.swift in Sources */,
 				0439ECD92533D40A00CB1AAA /* ScanViewController.swift in Sources */,
+				0439ECED2533D61E00CB1AAA /* StoreViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

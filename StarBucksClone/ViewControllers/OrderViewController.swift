@@ -9,7 +9,7 @@ import UIKit
 
 class OrderViewController: StarBucksViewController {
     override func viewDidLoad() {
-        view.backgroundColor = .systemIndigo
+        view.backgroundColor = .systemOrange
         title = "Order"
     }
     

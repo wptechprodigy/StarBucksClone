@@ -9,7 +9,7 @@ import UIKit
 
 class GiftViewController: StarBucksViewController {
     override func viewDidLoad() {
-        view.backgroundColor = .systemIndigo
+        view.backgroundColor = .systemGreen
         title = "Gift"
     }
     
