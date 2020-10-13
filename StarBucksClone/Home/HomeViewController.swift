@@ -9,8 +9,10 @@ import UIKit
 
 class HomeViewController: StarBucksViewController {
     static let cellIdentifier = "cellId"
+    
     let headerView = HomeHeaderView()
-    let tableView = UITableView()
+    var headerViewTopConstraint: NSLayoutConstraint?
+    var tableView = UITableView()
     
     var tiles = [
         "Star balance",
