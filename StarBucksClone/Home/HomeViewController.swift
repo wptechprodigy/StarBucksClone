@@ -8,6 +8,8 @@
 import UIKit
 
 class HomeViewController: StarBucksViewController {
+    
+    let headerView = HomeHeaderView()
 
     override func viewDidLoad() {
         super.viewDidLoad()

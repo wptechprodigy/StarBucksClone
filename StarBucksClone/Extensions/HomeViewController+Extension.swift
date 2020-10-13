@@ -12,3 +12,9 @@ extension HomeViewController {
         navigationController?.navigationBar.topItem?.title = "Good afternoon, Waheed ☀️"
     }
 }
+
+extension HomeViewController {
+    func style() {
+        headerView.translatesAutoresizingMaskIntoConstraints = false
+    }
+}
