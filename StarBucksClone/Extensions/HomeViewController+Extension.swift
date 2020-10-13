@@ -74,6 +74,17 @@ extension HomeViewController: UITableViewDelegate {
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         let y = scrollView.contentOffset.y
         
-        print(y)
+        let swipingDown = y <= 0
+        let shouldSnap = y > 30
+        let labelHeight = headerView.greetingLabel.frame.height + 16 // label + spaces
+        
+        UIView.animate(withDuration: 0.3) {
+            self.headerView.greetingLabel.alpha = swipingDown ? 1.0 : 0.0
+        }
+        
+        UIViewPropertyAnimator.runningPropertyAnimator(withDuration: 0.3, delay: 0, options: [], animations: {
+            self.headerViewTopConstraint?.constant = shouldSnap ? -labelHeight : 0
+            self.view.layoutIfNeeded()
+        })
     }
 }
