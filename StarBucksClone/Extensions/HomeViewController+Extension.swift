@@ -10,17 +10,80 @@ import UIKit
 extension HomeViewController {
     func style() {
         headerView.translatesAutoresizingMaskIntoConstraints = false
+        tableView.translatesAutoresizingMaskIntoConstraints = false
     }
 }
 
 extension HomeViewController {
     func layout() {
         view.addSubview(headerView)
+        view.addSubview(tableView)
+        
+        // Grab the top constraint of the greeting label
+        headerViewTopConstraint = headerView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor)
+        
+        guard let headerViewTopConstraint = headerViewTopConstraint else {
+            return
+        }
         
         NSLayoutConstraint.activate([
-            headerView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
+            headerViewTopConstraint,
             headerView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
-            headerView.trailingAnchor.constraint(equalTo: view.trailingAnchor)
+            headerView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            
+            tableView.topAnchor.constraint(equalTo: headerView.bottomAnchor),
+            tableView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            tableView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            tableView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor)
         ])
+    }
+}
+
+//Mark:- Table view
+extension HomeViewController: UITableViewDataSource {
+    func setupTableView() {
+        tableView.delegate = self
+        tableView.dataSource = self
+        
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: HomeViewController.cellIdentifier)
+        tableView.tableFooterView = UIView()
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return tiles.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: HomeViewController.cellIdentifier, for: indexPath)
+        
+        cell.textLabel?.text = tiles[indexPath.row]
+        cell.accessoryType = UITableViewCell.AccessoryType.disclosureIndicator
+        
+        return cell
+    }
+
+}
+
+// Mark:- Animating Scroll view
+extension HomeViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 300
+    }
+    
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        let y = scrollView.contentOffset.y
+        
+        let swipingDown = y <= 0
+        let shouldSnap = y > 30
+        let labelHeight = headerView.greetingLabel.frame.height + 16 // label + spaces
+        
+        UIView.animate(withDuration: 0.3) {
+            self.headerView.greetingLabel.alpha = swipingDown ? 1.0 : 0.0
+        }
+        
+        UIViewPropertyAnimator.runningPropertyAnimator(withDuration: 0.3, delay: 0, options: [], animations: {
+            self.headerViewTopConstraint?.constant = shouldSnap ? -labelHeight : 0
+            self.view.layoutIfNeeded()
+        })
     }
 }
