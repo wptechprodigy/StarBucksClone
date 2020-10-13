@@ -10,7 +10,6 @@ import UIKit
 extension HomeViewController {
     func style() {
         headerView.translatesAutoresizingMaskIntoConstraints = false
-        headerView.backgroundColor = .systemGray
         tableView.translatesAutoresizingMaskIntoConstraints = false
     }
 }
