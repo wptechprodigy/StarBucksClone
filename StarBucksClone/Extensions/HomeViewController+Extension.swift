@@ -8,13 +8,19 @@
 import UIKit
 
 extension HomeViewController {
-    func setupNavBar() {
-        navigationController?.navigationBar.topItem?.title = "Good afternoon, Waheed ☀️"
+    func style() {
+        headerView.translatesAutoresizingMaskIntoConstraints = false
     }
 }
 
 extension HomeViewController {
-    func style() {
-        headerView.translatesAutoresizingMaskIntoConstraints = false
+    func layout() {
+        view.addSubview(headerView)
+        
+        NSLayoutConstraint.activate([
+            headerView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
+            headerView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            headerView.trailingAnchor.constraint(equalTo: view.trailingAnchor)
+        ])
     }
 }
