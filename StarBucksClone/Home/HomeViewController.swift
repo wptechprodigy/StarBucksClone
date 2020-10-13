@@ -8,16 +8,24 @@
 import UIKit
 
 class HomeViewController: StarBucksViewController {
-    
+    static let cellIdentifier = "cellId"
     let headerView = HomeHeaderView()
+    let tableView = UITableView()
+    
+    var tiles = [
+        "Star balance",
+        "Bonus Stars",
+        "Try These",
+        "Welcome Back",
+        "Welcome Back"
+    ]
 
     override func viewDidLoad() {
         super.viewDidLoad()
         setTabBarImage(imageName: "house.fill", title: "Home")
-        
+        setupTableView()
         style()
         layout()
     }
 
 }
-
