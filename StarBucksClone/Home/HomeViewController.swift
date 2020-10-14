@@ -17,6 +17,7 @@ class HomeViewController: StarBucksViewController {
     var headerViewTopConstraint: NSLayoutConstraint?
     
     var tiles = [
+        TileViewController(),
         PlaceHolderViewController("Star balance"),
         PlaceHolderViewController("Bonus Stars"),
         PlaceHolderViewController("Try These"),
