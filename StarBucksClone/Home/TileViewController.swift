@@ -12,7 +12,7 @@ class TileViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        styleTileView()
-        layoutTileView()
+        styleTileViewController()
+        layoutTileViewController()
     }
 }
