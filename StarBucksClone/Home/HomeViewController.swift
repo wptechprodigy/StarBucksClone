@@ -17,12 +17,9 @@ class HomeViewController: StarBucksViewController {
     var headerViewTopConstraint: NSLayoutConstraint?
     
     var tiles = [
-        TileViewController(),
-        PlaceHolderViewController("Star balance"),
-        PlaceHolderViewController("Bonus Stars"),
-        PlaceHolderViewController("Try These"),
-        PlaceHolderViewController("Welcome Back"),
-        PlaceHolderViewController("Welcome Back")
+        TileViewController(title: "Breakfast made meatless", subtitle: "Try the Beyond Meat, Cheddar & Egg Breakfast Sandwich. Vegetarian and protein-packed.", imageName: "meatless"),
+        TileViewController(title: "Breakfast made meatless", subtitle: "Try the Beyond Meat, Cheddar & Egg Breakfast Sandwich. Vegetarian and protein-packed.", imageName: "communities"),
+        TileViewController(title: "Breakfast made meatless", subtitle: "Try the Beyond Meat, Cheddar & Egg Breakfast Sandwich. Vegetarian and protein-packed.", imageName: "bonus")
     ]
 
     override func viewDidLoad() {
