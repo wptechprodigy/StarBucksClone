@@ -22,6 +22,8 @@
 		0439ED0E2534ADE400CB1AAA /* UIKit+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439ED0D2534ADE400CB1AAA /* UIKit+Extension.swift */; };
 		0439ED222535AA5C00CB1AAA /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439ED212535AA5C00CB1AAA /* HomeHeaderView.swift */; };
 		0439ED272535AF9300CB1AAA /* HomeHeaderView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439ED262535AF9300CB1AAA /* HomeHeaderView+Extension.swift */; };
+		0439ED35253659B600CB1AAA /* TileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439ED34253659B600CB1AAA /* TileViewController.swift */; };
+		0439ED3A25365AF100CB1AAA /* TileViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439ED3925365AF100CB1AAA /* TileViewController+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		0439ED0D2534ADE400CB1AAA /* UIKit+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIKit+Extension.swift"; sourceTree = "<group>"; };
 		0439ED212535AA5C00CB1AAA /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
 		0439ED262535AF9300CB1AAA /* HomeHeaderView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeHeaderView+Extension.swift"; sourceTree = "<group>"; };
+		0439ED34253659B600CB1AAA /* TileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileViewController.swift; sourceTree = "<group>"; };
+		0439ED3925365AF100CB1AAA /* TileViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TileViewController+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +180,7 @@
 				0439ED0525345D2D00CB1AAA /* HomeViewController+Extension.swift */,
 				0439ED0D2534ADE400CB1AAA /* UIKit+Extension.swift */,
 				0439ED262535AF9300CB1AAA /* HomeHeaderView+Extension.swift */,
+				0439ED3925365AF100CB1AAA /* TileViewController+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -185,6 +190,7 @@
 			children = (
 				0439EC8F2533BFE500CB1AAA /* HomeViewController.swift */,
 				0439ED212535AA5C00CB1AAA /* HomeHeaderView.swift */,
+				0439ED34253659B600CB1AAA /* TileViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -321,6 +327,7 @@
 				0439EC902533BFE500CB1AAA /* HomeViewController.swift in Sources */,
 				0439ED0625345D2D00CB1AAA /* HomeViewController+Extension.swift in Sources */,
 				0439ECE32533D48B00CB1AAA /* OrderViewController.swift in Sources */,
+				0439ED3A25365AF100CB1AAA /* TileViewController+Extension.swift in Sources */,
 				0439ECDE2533D42600CB1AAA /* StarBucksViewController.swift in Sources */,
 				0439EC8C2533BFE500CB1AAA /* AppDelegate.swift in Sources */,
 				0439ECE82533D52300CB1AAA /* GiftViewController.swift in Sources */,
@@ -328,6 +335,7 @@
 				0439ECD92533D40A00CB1AAA /* ScanViewController.swift in Sources */,
 				0439ED0E2534ADE400CB1AAA /* UIKit+Extension.swift in Sources */,
 				0439ED272535AF9300CB1AAA /* HomeHeaderView+Extension.swift in Sources */,
+				0439ED35253659B600CB1AAA /* TileViewController.swift in Sources */,
 				0439ECED2533D61E00CB1AAA /* StoreViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
