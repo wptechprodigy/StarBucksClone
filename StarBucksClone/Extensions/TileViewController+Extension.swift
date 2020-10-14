@@ -1,22 +1,28 @@
 //
-//  TileView+Extension.swift
+//  TileViewController+Extension.swift
 //  StarBucksClone
 //
-//  Created by waheedCodes on 13/10/2020.
+//  Created by waheedCodes on 14/10/2020.
 //
 
 import UIKit
 
 extension TileViewController {
-    func layout() {
-        view.addSubview(label)
-        
-        label.translatesAutoresizingMaskIntoConstraints = false
+    func styleTileView() {
+        tileView.translatesAutoresizingMaskIntoConstraints = false
+    }
+}
+
+extension TileViewController {
+    func layoutTileView() {
+        view.addSubview(tileView)
         
         NSLayoutConstraint.activate([
-            label.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            label.centerYAnchor.constraint(equalTo: view.centerYAnchor),
-            view.heightAnchor.constraint(equalToConstant: 300)
+            tileView.topAnchor.constraint(equalTo: view.topAnchor),
+            tileView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            tileView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            tileView.bottomAnchor.constraint(equalTo: view.bottomAnchor)
         ])
+
     }
 }
