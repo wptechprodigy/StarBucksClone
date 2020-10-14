@@ -8,13 +8,13 @@
 import UIKit
 
 extension TileViewController {
-    func styleTileView() {
+    func styleTileViewController() {
         tileView.translatesAutoresizingMaskIntoConstraints = false
     }
 }
 
 extension TileViewController {
-    func layoutTileView() {
+    func layoutTileViewController() {
         view.addSubview(tileView)
         
         NSLayoutConstraint.activate([

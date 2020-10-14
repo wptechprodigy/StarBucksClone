@@ -27,6 +27,7 @@
 		0439ED4E2537257A00CB1AAA /* TileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439ED4D2537257A00CB1AAA /* TileViewController.swift */; };
 		0439ED53253725BE00CB1AAA /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439ED52253725BE00CB1AAA /* TileView.swift */; };
 		0439ED5B2537264600CB1AAA /* TileViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439ED5A2537264600CB1AAA /* TileViewController+Extension.swift */; };
+		0439ED6625372F8600CB1AAA /* TileView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439ED6525372F8600CB1AAA /* TileView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		0439ED4D2537257A00CB1AAA /* TileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileViewController.swift; sourceTree = "<group>"; };
 		0439ED52253725BE00CB1AAA /* TileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileView.swift; sourceTree = "<group>"; };
 		0439ED5A2537264600CB1AAA /* TileViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TileViewController+Extension.swift"; sourceTree = "<group>"; };
+		0439ED6525372F8600CB1AAA /* TileView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TileView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +190,7 @@
 				0439ED262535AF9300CB1AAA /* HomeHeaderView+Extension.swift */,
 				0439ED3925365AF100CB1AAA /* PlaceHolderViewController+Extension.swift */,
 				0439ED5A2537264600CB1AAA /* TileViewController+Extension.swift */,
+				0439ED6525372F8600CB1AAA /* TileView+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -337,6 +340,7 @@
 				0439ED0625345D2D00CB1AAA /* HomeViewController+Extension.swift in Sources */,
 				0439ECE32533D48B00CB1AAA /* OrderViewController.swift in Sources */,
 				0439ED3A25365AF100CB1AAA /* PlaceHolderViewController+Extension.swift in Sources */,
+				0439ED6625372F8600CB1AAA /* TileView+Extension.swift in Sources */,
 				0439ECDE2533D42600CB1AAA /* StarBucksViewController.swift in Sources */,
 				0439EC8C2533BFE500CB1AAA /* AppDelegate.swift in Sources */,
 				0439ECE82533D52300CB1AAA /* GiftViewController.swift in Sources */,
