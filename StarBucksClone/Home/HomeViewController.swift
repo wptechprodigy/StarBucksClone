@@ -27,6 +27,7 @@ class HomeViewController: StarBucksViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setTabBarImage(imageName: "house.fill", title: "Home")
+        setupScrollView()
         style()
         layout()
     }

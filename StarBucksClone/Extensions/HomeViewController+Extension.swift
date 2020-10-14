@@ -21,6 +21,15 @@ extension HomeViewController {
 extension HomeViewController {
     func layout() {
         view.addSubview(headerView)
+        view.addSubview(scrollView)
+        scrollView.addSubview(stackView)
+        
+        // Display each tileViewController in the stackView
+        for tile in tiles {
+            addChild(tile)
+            stackView.addArrangedSubview(tile.view)
+            tile.didMove(toParent: self)
+        }
         
         // Grab the top constraint of the greeting label
         headerViewTopConstraint = headerView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor)
