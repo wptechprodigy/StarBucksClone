@@ -31,6 +31,7 @@ extension TileView {
     func layout() {
         addSubview(imageView)
         addSubview(titleLabel)
+        addSubview(subtitleLabel)
         
         NSLayoutConstraint.activate([
             imageView.topAnchor.constraint(equalTo: topAnchor),
@@ -39,7 +40,11 @@ extension TileView {
             
             titleLabel.topAnchor.constraint(equalToSystemSpacingBelow: imageView.bottomAnchor, multiplier: 2),
             titleLabel.leadingAnchor.constraint(equalToSystemSpacingAfter: leadingAnchor, multiplier: 2),
-            trailingAnchor.constraint(equalToSystemSpacingAfter: titleLabel.trailingAnchor, multiplier: 2)
+            trailingAnchor.constraint(equalToSystemSpacingAfter: titleLabel.trailingAnchor, multiplier: 2),
+            
+            subtitleLabel.topAnchor.constraint(equalToSystemSpacingBelow: titleLabel.bottomAnchor, multiplier: 2),
+            subtitleLabel.leadingAnchor.constraint(equalTo: titleLabel.leadingAnchor),
+            subtitleLabel.trailingAnchor.constraint(equalTo: titleLabel.trailingAnchor)
         ])
     }
 }
