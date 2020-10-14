@@ -13,6 +13,17 @@ extension TileView {
         imageView.image = UIImage(named: "meatless")
         imageView.contentMode = .scaleAspectFill
         imageView.clipsToBounds = true
+        
+        titleLabel.translatesAutoresizingMaskIntoConstraints = false
+        titleLabel.font = UIFont.preferredFont(forTextStyle: .title3).bold()
+        titleLabel.textColor = .label
+        
+        subtitleLabel.translatesAutoresizingMaskIntoConstraints = false
+        subtitleLabel.font = UIFont.preferredFont(forTextStyle: .footnote)
+        subtitleLabel.numberOfLines = 0
+        subtitleLabel.lineBreakMode = .byWordWrapping
+        
+        ctaButton.translatesAutoresizingMaskIntoConstraints = false
     }
 }
 
