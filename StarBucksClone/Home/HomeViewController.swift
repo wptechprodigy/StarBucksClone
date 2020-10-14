@@ -11,14 +11,17 @@ class HomeViewController: StarBucksViewController {
     static let cellIdentifier = "cellId"
     
     let headerView = HomeHeaderView()
+    let scrollView = UIScrollView()
+    let stackView = UIStackView()
+    
     var headerViewTopConstraint: NSLayoutConstraint?
     
     var tiles = [
-        "Star balance",
-        "Bonus Stars",
-        "Try These",
-        "Welcome Back",
-        "Welcome Back"
+        TileViewController("Star balance"),
+        TileViewController("Bonus Stars"),
+        TileViewController("Try These"),
+        TileViewController("Welcome Back"),
+        TileViewController("Welcome Back")
     ]
 
     override func viewDidLoad() {
