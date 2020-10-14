@@ -7,7 +7,7 @@
 
 import UIKit
 
-class TileView: UIViewController {
+class TileViewController: UIViewController {
     
     let label = UILabel()
     

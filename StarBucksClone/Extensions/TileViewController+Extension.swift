@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension TileView {
+extension TileViewController {
     func layout() {
         view.addSubview(label)
         
