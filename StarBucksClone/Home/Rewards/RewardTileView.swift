@@ -7,7 +7,7 @@
 
 import UIKit
 
-class RewardsTileView: UIView {
+class RewardTileView: UIView {
     
     override var intrinsicContentSize: CGSize {
         return CGSize(width: 100, height: 300)

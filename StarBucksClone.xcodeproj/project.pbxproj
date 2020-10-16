@@ -28,7 +28,7 @@
 		0439ED53253725BE00CB1AAA /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439ED52253725BE00CB1AAA /* TileView.swift */; };
 		0439ED5B2537264600CB1AAA /* TileViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439ED5A2537264600CB1AAA /* TileViewController+Extension.swift */; };
 		0439ED6625372F8600CB1AAA /* TileView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439ED6525372F8600CB1AAA /* TileView+Extension.swift */; };
-		0439ED772539BA6600CB1AAA /* RewardsTileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439ED762539BA6500CB1AAA /* RewardsTileViewController.swift */; };
+		0439ED772539BA6600CB1AAA /* RewardTileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439ED762539BA6500CB1AAA /* RewardTileViewController.swift */; };
 		0439ED7C2539BAE900CB1AAA /* RewardTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439ED7B2539BAE900CB1AAA /* RewardTileView.swift */; };
 /* End PBXBuildFile section */
 
@@ -77,7 +77,7 @@
 		0439ED52253725BE00CB1AAA /* TileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileView.swift; sourceTree = "<group>"; };
 		0439ED5A2537264600CB1AAA /* TileViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TileViewController+Extension.swift"; sourceTree = "<group>"; };
 		0439ED6525372F8600CB1AAA /* TileView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TileView+Extension.swift"; sourceTree = "<group>"; };
-		0439ED762539BA6500CB1AAA /* RewardsTileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsTileViewController.swift; sourceTree = "<group>"; };
+		0439ED762539BA6500CB1AAA /* RewardTileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardTileViewController.swift; sourceTree = "<group>"; };
 		0439ED7B2539BAE900CB1AAA /* RewardTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardTileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -215,7 +215,7 @@
 		0439ED752539B7D500CB1AAA /* Rewards */ = {
 			isa = PBXGroup;
 			children = (
-				0439ED762539BA6500CB1AAA /* RewardsTileViewController.swift */,
+				0439ED762539BA6500CB1AAA /* RewardTileViewController.swift */,
 				0439ED7B2539BAE900CB1AAA /* RewardTileView.swift */,
 			);
 			path = Rewards;
@@ -364,7 +364,7 @@
 				0439ED0E2534ADE400CB1AAA /* UIKit+Extension.swift in Sources */,
 				0439ED5B2537264600CB1AAA /* TileViewController+Extension.swift in Sources */,
 				0439ED4E2537257A00CB1AAA /* TileViewController.swift in Sources */,
-				0439ED772539BA6600CB1AAA /* RewardsTileViewController.swift in Sources */,
+				0439ED772539BA6600CB1AAA /* RewardTileViewController.swift in Sources */,
 				0439ED272535AF9300CB1AAA /* HomeHeaderView+Extension.swift in Sources */,
 				0439ED35253659B600CB1AAA /* PlaceHolderViewController.swift in Sources */,
 				0439ED53253725BE00CB1AAA /* TileView.swift in Sources */,
