@@ -32,6 +32,7 @@
 		0439ED7C2539BAE900CB1AAA /* RewardTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439ED7B2539BAE900CB1AAA /* RewardTileView.swift */; };
 		0439ED842539BFA100CB1AAA /* BalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439ED832539BFA000CB1AAA /* BalanceView.swift */; };
 		0439ED892539C6F400CB1AAA /* BalanceView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439ED882539C6F400CB1AAA /* BalanceView+Extension.swift */; };
+		0439ED8E2539CF8300CB1AAA /* RewardTileView+Exntension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439ED8D2539CF8300CB1AAA /* RewardTileView+Exntension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 		0439ED7B2539BAE900CB1AAA /* RewardTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardTileView.swift; sourceTree = "<group>"; };
 		0439ED832539BFA000CB1AAA /* BalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceView.swift; sourceTree = "<group>"; };
 		0439ED882539C6F400CB1AAA /* BalanceView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BalanceView+Extension.swift"; sourceTree = "<group>"; };
+		0439ED8D2539CF8300CB1AAA /* RewardTileView+Exntension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RewardTileView+Exntension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +202,7 @@
 				0439ED5A2537264600CB1AAA /* TileViewController+Extension.swift */,
 				0439ED6525372F8600CB1AAA /* TileView+Extension.swift */,
 				0439ED882539C6F400CB1AAA /* BalanceView+Extension.swift */,
+				0439ED8D2539CF8300CB1AAA /* RewardTileView+Exntension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -376,6 +379,7 @@
 				0439ED272535AF9300CB1AAA /* HomeHeaderView+Extension.swift in Sources */,
 				0439ED35253659B600CB1AAA /* PlaceHolderViewController.swift in Sources */,
 				0439ED53253725BE00CB1AAA /* TileView.swift in Sources */,
+				0439ED8E2539CF8300CB1AAA /* RewardTileView+Exntension.swift in Sources */,
 				0439ECED2533D61E00CB1AAA /* StoreViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
