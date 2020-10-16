@@ -20,6 +20,7 @@ class RewardTileViewController: UIViewController {
 extension RewardTileViewController {
     func setupRewardsView() {
         rewardsTileView.translatesAutoresizingMaskIntoConstraints = false
+        rewardsTileView.backgroundColor = .backgroundWhite
         
         view.addSubview(rewardsTileView)
         
