@@ -30,6 +30,8 @@
 		0439ED6625372F8600CB1AAA /* TileView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439ED6525372F8600CB1AAA /* TileView+Extension.swift */; };
 		0439ED772539BA6600CB1AAA /* RewardTileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439ED762539BA6500CB1AAA /* RewardTileViewController.swift */; };
 		0439ED7C2539BAE900CB1AAA /* RewardTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439ED7B2539BAE900CB1AAA /* RewardTileView.swift */; };
+		0439ED842539BFA100CB1AAA /* BalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439ED832539BFA000CB1AAA /* BalanceView.swift */; };
+		0439ED892539C6F400CB1AAA /* BalanceView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439ED882539C6F400CB1AAA /* BalanceView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +81,8 @@
 		0439ED6525372F8600CB1AAA /* TileView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TileView+Extension.swift"; sourceTree = "<group>"; };
 		0439ED762539BA6500CB1AAA /* RewardTileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardTileViewController.swift; sourceTree = "<group>"; };
 		0439ED7B2539BAE900CB1AAA /* RewardTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardTileView.swift; sourceTree = "<group>"; };
+		0439ED832539BFA000CB1AAA /* BalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceView.swift; sourceTree = "<group>"; };
+		0439ED882539C6F400CB1AAA /* BalanceView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BalanceView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +199,7 @@
 				0439ED3925365AF100CB1AAA /* PlaceHolderViewController+Extension.swift */,
 				0439ED5A2537264600CB1AAA /* TileViewController+Extension.swift */,
 				0439ED6525372F8600CB1AAA /* TileView+Extension.swift */,
+				0439ED882539C6F400CB1AAA /* BalanceView+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -217,6 +222,7 @@
 			children = (
 				0439ED762539BA6500CB1AAA /* RewardTileViewController.swift */,
 				0439ED7B2539BAE900CB1AAA /* RewardTileView.swift */,
+				0439ED832539BFA000CB1AAA /* BalanceView.swift */,
 			);
 			path = Rewards;
 			sourceTree = "<group>";
@@ -351,6 +357,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0439EC902533BFE500CB1AAA /* HomeViewController.swift in Sources */,
+				0439ED842539BFA100CB1AAA /* BalanceView.swift in Sources */,
 				0439ED7C2539BAE900CB1AAA /* RewardTileView.swift in Sources */,
 				0439ED0625345D2D00CB1AAA /* HomeViewController+Extension.swift in Sources */,
 				0439ECE32533D48B00CB1AAA /* OrderViewController.swift in Sources */,
@@ -358,6 +365,7 @@
 				0439ED6625372F8600CB1AAA /* TileView+Extension.swift in Sources */,
 				0439ECDE2533D42600CB1AAA /* StarBucksViewController.swift in Sources */,
 				0439EC8C2533BFE500CB1AAA /* AppDelegate.swift in Sources */,
+				0439ED892539C6F400CB1AAA /* BalanceView+Extension.swift in Sources */,
 				0439ECE82533D52300CB1AAA /* GiftViewController.swift in Sources */,
 				0439ED222535AA5C00CB1AAA /* HomeHeaderView.swift in Sources */,
 				0439ECD92533D40A00CB1AAA /* ScanViewController.swift in Sources */,
