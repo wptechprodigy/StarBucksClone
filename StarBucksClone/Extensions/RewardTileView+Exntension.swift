@@ -14,11 +14,10 @@ extension RewardTileView {
         makeRewardsOptionButton()
         
         rewardsGraphView.translatesAutoresizingMaskIntoConstraints = false
+        rewardsGraphView.backgroundColor = .systemRed
         starRewardsView.translatesAutoresizingMaskIntoConstraints = false
         
-        rewardsDetailsButton.translatesAutoresizingMaskIntoConstraints = false
-        rewardsDetailsButton.titleLabel?.text = "Details"
-        rewardsDetailsButton.backgroundColor = .systemBlue
+        rewardsDetailsButton = makeClearButton(withText: "Details")
     }
     
     func makeRewardsOptionButton() {
@@ -38,6 +37,7 @@ extension RewardTileView {
         rewardsOptionsButton.semanticContentAttribute = .forceRightToLeft
         rewardsOptionsButton.imageEdgeInsets = UIEdgeInsets(top: 2, left: 20, bottom: 0, right: 0)
         rewardsOptionsButton.contentEdgeInsets = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 20)
+    
     }
 }
 
@@ -58,7 +58,10 @@ extension RewardTileView {
             
             rewardsGraphView.topAnchor.constraint(equalToSystemSpacingBelow: balanceView.bottomAnchor, multiplier: 1),
             rewardsGraphView.centerXAnchor.constraint(equalTo: centerXAnchor),
-            rewardsGraphView.widthAnchor.constraint(equalToConstant: frame.width),
+//            rewardsGraphView.widthAnchor.constraint(equalToConstant: frame.width),
+            rewardsGraphView.heightAnchor.constraint(equalToConstant: 200),
+            rewardsGraphView.leadingAnchor.constraint(equalToSystemSpacingAfter: leadingAnchor, multiplier: 2),
+            trailingAnchor.constraint(equalToSystemSpacingAfter: rewardsGraphView.trailingAnchor, multiplier: 2),
             
             starRewardsView.topAnchor.constraint(equalToSystemSpacingBelow: rewardsGraphView.bottomAnchor, multiplier: 2),
             starRewardsView.leadingAnchor.constraint(equalToSystemSpacingAfter: leadingAnchor, multiplier: 1),

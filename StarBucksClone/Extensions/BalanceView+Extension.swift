@@ -22,7 +22,9 @@ extension BalanceView {
         starBalanceLabel.textColor = .label
         starBalanceLabel.text = "Star balance"
     }
-    
+}
+
+extension BalanceView {
     func layout() {
         addSubview(pointsLabel)
         addSubview(starView)
@@ -42,11 +44,4 @@ extension BalanceView {
             starBalanceLabel.bottomAnchor.constraint(equalTo: bottomAnchor)
         ])
     }
-}
-
-func makeSymbolImageViw(systemName: String, scale: UIImage.SymbolScale = .large) -> UIImageView {
-    let configuration = UIImage.SymbolConfiguration(scale: scale)
-    let image = UIImage(systemName: systemName, withConfiguration: configuration)
-    
-    return UIImageView(image: image)
 }

@@ -13,7 +13,7 @@ class RewardTileView: UIView {
     let rewardsOptionsButton = UIButton()
     let rewardsGraphView = UIView()
     let starRewardsView = UIView()
-    let rewardsDetailsButton = UIButton()
+    var rewardsDetailsButton = UIButton()
     
     override var intrinsicContentSize: CGSize {
         return CGSize(width: 100, height: 300)
