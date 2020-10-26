@@ -10,6 +10,10 @@ import UIKit
 class RewardTileView: UIView {
     
     let balanceView = BalanceView()
+    let rewardsOptionsButton = UIButton()
+    let rewardsGraphView = UIView()
+    let starRewardsView = UIView()
+    var rewardsDetailsButton = UIButton()
     
     override var intrinsicContentSize: CGSize {
         return CGSize(width: 100, height: 300)
